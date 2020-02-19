@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Splash3.unity
     guid: 269df2aa59e6eb440b24260aef5e43f9
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5b3709c783070bb40ab73f5b2d6bef5a
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

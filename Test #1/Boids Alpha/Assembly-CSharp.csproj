@@ -64,6 +64,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BoidController.cs" />
     <Compile Include="Assets\Scripts\BoidFlocking.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\OptionsMenu.cs" />
     <Compile Include="Assets\Scripts\SplashSequence.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/tooth/OneDrive/Desktop/Team-12-Project-/Test #1/Boids Alpha/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

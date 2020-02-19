@@ -25,7 +25,7 @@ public class SplashSequence : MonoBehaviour
     IEnumerator LoadScene()
     {
         transitionAnim.SetTrigger("end");
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(sceneName);
     }
 }
