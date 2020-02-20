@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\BoidController.cs" />
     <Compile Include="Assets\Scripts\BoidFlocking.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
@@ -74,6 +75,9 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/tooth/OneDrive/Desktop/Team-12-Project-/Test #1/Boids Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/tooth/OneDrive/Desktop/Team-12-Project-/Test #1/Boids Alpha/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/tooth/OneDrive/Desktop/Team-12-Project-/Test #1/Boids Alpha/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
@@ -85,9 +89,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/tooth/OneDrive/Desktop/Team-12-Project-/Test #1/Boids Alpha/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/tooth/OneDrive/Desktop/Team-12-Project-/Test #1/Boids Alpha/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
