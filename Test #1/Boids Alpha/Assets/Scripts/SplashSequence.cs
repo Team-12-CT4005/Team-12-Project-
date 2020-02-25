@@ -7,16 +7,18 @@ public class SplashSequence : MonoBehaviour
 {
     public Animator transitionAnim;
     public string sceneName;
+    private float counter = 10.0f;
     // Start is called before the first frame update
     void Start()
     {
-        
+        counter = 10.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        counter -= Time.deltaTime;
+        if (counter <= 0)
         {
             StartCoroutine(LoadScene());
         }
